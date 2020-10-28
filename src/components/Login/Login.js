@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Container } from "react-bootstrap";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 import { UserContext } from "../../App";
 import "./Login.css";
 import { handleGoogleSignIn, initializeLoginFramework } from "./loginManager";
@@ -11,6 +11,8 @@ initializeLoginFramework();
 const Login = () => {
   // state for storing logged in user data
   const { setLoggedInUser } = useContext(UserContext);
+
+  document.title = "Login";
 
   let history = useHistory();
   let location = useLocation();

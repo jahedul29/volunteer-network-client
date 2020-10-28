@@ -1,0 +1,40 @@
+.bg-container {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.952),
+      rgba(255, 255, 255, 0.931)
+    ),
+    url("https://i.imgur.com/vUOYH7e.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: cover;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.loading-spinner {
+  height: 400px;
+  width: 130%;
+  position: relative;
+  left: -15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+._loading_overlay_overlay {
+  margin-top: 100px;
+}
+
+.css-df17o1 {
+  background-color: transparent !important;
+}
